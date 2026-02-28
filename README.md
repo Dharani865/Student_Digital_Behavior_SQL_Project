@@ -49,6 +49,8 @@ The ER diagram below represents the schema design:
          Created summary metrics including:
           Total students
           Overall average marks
+          
+          ![ER Diagram](er_diagram.png)
 
 🧠 SQL Concepts Covered
 
