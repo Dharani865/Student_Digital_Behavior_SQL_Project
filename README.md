@@ -21,10 +21,16 @@ The project consists of the following tables:
          Digital_Usage – Study hours, social media usage, online learning time
          Relationships were created using foreign keys to maintain data integrity.
 
+The ER diagram below represents the schema design:
+
 📈 Key Analyses Performed
 
     🔹 Average Performance Per Student
             Calculated using aggregation and grouping to evaluate overall academic strength.
+
+       <img width="267" height="138" alt="avg_score_result" src="https://github.com/user-attachments/assets/f6ae3566-904e-4906-8fac-5126635d5c8c" />
+
+       
     🔹 Social Media Usage vs Academic Performance
             Used CASE statements and grouping to categorize high vs low usage students and measure impact on performance.
     🔹 At-Risk Student Identification
