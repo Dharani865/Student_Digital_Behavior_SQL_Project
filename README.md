@@ -28,11 +28,13 @@ The ER diagram below represents the schema design:
     🔹 Average Performance Per Student
             Calculated using aggregation and grouping to evaluate overall academic strength.
 
-       <img width="267" height="138" alt="avg_score_result" src="https://github.com/user-attachments/assets/f6ae3566-904e-4906-8fac-5126635d5c8c" />
-
-       
+            ![Average_Score](avg_score_result.png)
+            
     🔹 Social Media Usage vs Academic Performance
             Used CASE statements and grouping to categorize high vs low usage students and measure impact on performance.
+
+            ![Social_Media_Usage_vs_Per](Social_Media_Usage_vs_Performance.png)
+            
     🔹 At-Risk Student Identification
             Identified students with:
                     Low attendance
