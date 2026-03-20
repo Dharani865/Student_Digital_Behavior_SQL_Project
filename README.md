@@ -23,7 +23,7 @@ The project consists of the following tables:
 
 The ER diagram below represents the schema design:
 
-![ER Diagram](Assets/er_diagram.png)
+![ER Diagram](Assets/er_diagram.png) 
 
 📈 Key Analyses Performed
 
