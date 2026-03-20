@@ -28,10 +28,10 @@ The ER diagram below represents the schema design:
 📈 Key Analyses Performed
     🔹 Average Performance Per Student
             Calculated using aggregation and grouping to evaluate overall academic strength.
-            ![Average_Score](Assets/avg_score_result.png) 
+![Average_Score](Assets/avg_score_result.png) 
     🔹 Social Media Usage vs Academic Performance
             Used CASE statements and grouping to categorize high vs low usage students and measure impact on performance.
-            ![Social_Media_Usage_vs_Per](Assets/Social_Media_Usage_vs_Performance.png)
+![Social_Media_Usage_vs_Per](Assets/Social_Media_Usage_vs_Performance.png)
     🔹 At-Risk Student Identification
             Identified students with:
                     Low attendance
@@ -48,7 +48,7 @@ The ER diagram below represents the schema design:
          Created summary metrics including: 
           Total students
           Overall average marks    
-          ![ER Diagram](Assets/er_diagram.png) 
+![ER Diagram](Assets/er_diagram.png) 
 
 🧠 SQL Concepts Covered
 
