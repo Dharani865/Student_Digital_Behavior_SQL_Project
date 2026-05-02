@@ -1,124 +1,116 @@
-# 📊 Student Digital Behavior & Academic Performance Analysis
+📊 Student Digital Behavior & Academic Performance Analysis
 
-## 📌 Project Overview
-This project analyzes the relationship between students' digital behavior (study hours, social media usage, and online learning engagement) and their academic performance using SQL.
+📌 Project Overview
 
-The objective is to design a relational database system and perform analytical queries to extract meaningful insights that help identify performance trends and at-risk students.  
-This project demonstrates strong SQL fundamentals and data-driven analytical skills.
+This project explores how students' digital habits—such as study time, social media usage, and online learning—affect their academic performance. Using SQL, a relational database was designed to organize the data and perform detailed analysis.
+The main aim is to uncover patterns in student behavior, identify performance trends, and detect students who may be at risk academically. This project highlights practical SQL skills along with a strong approach to data-driven analysis.
 
----
+🛠️ Technologies Used
 
-## 🛠️ Technologies Used
-- SQL (MySQL)
-- MySQL Workbench
-- Relational Database Design
-- Analytical Querying
+SQL (MySQL)
 
----
+MySQL Workbench
 
-## 📊 Dataset Information
-The dataset used in this project is synthetically generated to simulate real-world student behavior and academic performance patterns.
+Relational Database Design
 
----
+Analytical Querying
 
-## 🗂️ Database Structure
-The project consists of the following tables:
+📊 Dataset Information
 
-- **Students** – Student demographic details  
-- **Attendance** – Attendance percentage per subject  
-- **Marks** – Internal and external marks  
-- **Assignments** – Submission behavior  
-- **Digital_Usage** – Study hours, social media usage, online learning time  
+The dataset used in this project is synthetically created to resemble real-world student data. It includes information about academic performance, attendance, assignments, and digital usage patterns.
 
-Relationships are maintained using foreign keys to ensure data integrity.
+🗂️ Database Structure
 
-### 🔹 ER Diagram
+The database is designed with multiple related tables to ensure proper data organization and integrity:
+
+Students – Basic student details
+
+Attendance – Subject-wise attendance records
+
+Marks – Internal and external exam scores
+
+Assignments – Assignment submission details
+
+Digital_Usage – Study hours, social media usage, and online learning activity
+
+All tables are connected using foreign keys to maintain consistency and avoid redundancy.
+
+🔹 ER Diagram
+
 ![ER Diagram](Assets/er_diagram.png)
 
----
+📈 Key Analyses Performed
 
-## 📈 Key Analyses Performed
+🔹 Average Performance Per Student
 
-### 🔹 Average Performance Per Student
-- Calculated using aggregation and grouping to evaluate overall academic strength  
-![Average Score](Assets/avg_score_result.png)
+Calculated overall student performance using aggregation and grouping techniques.
 
----
 
-### 🔹 Social Media Usage vs Academic Performance
-- Used CASE statements and grouping to categorize high vs low usage students and measure impact  
-![Social Media vs Performance](Assets/Social_Media_Usage_vs_Performance.png)
+🔹 Social Media Usage vs Academic Performance
 
----
+Analyzed how social media usage impacts student performance by categorizing users and comparing results.
 
-### 🔹 At-Risk Student Identification
-- Identified students with:
-  - Low attendance  
-  - Low academic scores  
 
----
+🔹 At-Risk Student Identification
 
-### 🔹 Department-Wise Ranking
-- Used window functions (`RANK`, `ROW_NUMBER`) to rank students within each department  
+Identified students who may need attention based on:
 
----
+Low attendance
 
-### 🔹 Performance Categorization
-- Classified students into:
-  - Excellent  
-  - Good  
-  - Average  
-  - Needs Improvement  
+Low academic scores
 
----
+🔹 Department-Wise Ranking
 
-### 🔹 KPI Summary Metrics
-- Total number of students  
-- Overall average marks  
+Used window functions like RANK() and ROW_NUMBER() to rank students within each department.
 
----
+🔹 Performance Categorization
 
-## 🧠 SQL Concepts Covered
-- SELECT, WHERE  
-- GROUP BY, HAVING  
-- INNER JOIN  
-- CASE statements  
-- Aggregate functions  
-- Subqueries  
-- CTE (WITH clause)  
-- Window functions (RANK, ROW_NUMBER)  
-- Views  
-- Indexing  
+Grouped students into performance levels such as:
 
----
+Excellent
 
-## 🎯 Business Insights
-- Higher social media usage shows a negative correlation with academic performance  
-- Students with low attendance are more likely to underperform  
-- Assignment submission behavior significantly impacts overall marks  
-- Department-level analysis reveals performance variations across disciplines  
+Good
 
----
+Average
 
-## 🚀 Project Highlights
-✔ Designed a normalized relational database  
-✔ Implemented complex multi-table joins  
-✔ Applied advanced SQL analytical techniques  
-✔ Generated actionable insights from structured data  
-✔ Built BI-ready views for future dashboard integration  
+Needs Improvement
 
----
+🔹 KPI Summary Metrics
 
-## 📂 How to Run This Project
-1. Open MySQL Workbench  
-2. Execute `database_schema.sql`  
-3. Execute `sample_data.sql`  
-4. Execute `analysis_queries.sql`  
-5. Run queries to generate insights  
+Generated key metrics like:
 
----
+Total number of students
 
-## 👩‍💻 Author
-**Dharanisri Subramaniam**  
-Aspiring Data Analyst  
-Focused on SQL, Data Analysis & Business Insights
+Overall average marks
+
+🧠 SQL Concepts Covered
+
+This project demonstrates a wide range of SQL concepts, including:
+
+Basic queries (SELECT, WHERE)
+
+GROUP BY and HAVING
+
+Joins (especially INNER JOIN)
+
+CASE statements
+
+Aggregate functions
+
+Subqueries
+
+CTEs (WITH clause)
+
+Window functions (RANK, ROW_NUMBER)
+
+Views and indexing
+
+🎯 Key Insights
+
+Higher social media usage tends to negatively impact academic performance
+
+Students with lower attendance are more likely to score poorly
+
+Regular assignment submission plays an important role in overall performance
+
+Performance varies across different departments
